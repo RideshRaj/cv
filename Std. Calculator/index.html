@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Poppins&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <h1>Std. Calculator</h1>
+    <form>
+        <input class="textField"/>
+        <br>
+        <input type="button" value="AC" onClick="this.form.reset()" />
+        <input type="submit" value="<" onclick="back()">
+        <input type="submit" value="%" onclick="insert(value)">
+        <input type="submit" value="/" onclick="insert(value)">
+    </form>
+    <input type="submit" value="7" onclick="insert(value)">
+    <input type="submit" value="8" onclick="insert(value)">
+    <input type="submit" value="9" onclick="insert(value)">
+    <input type="submit" value="+" onclick="insert(value)">
+    
+    </br>
+     <input type="submit" value="4" onclick="insert(value)">
+    <input type="submit" value="5" onclick="insert(value)">
+    <input type="submit" value="6" onclick="insert(value)">
+    <input type="submit" value="-" onclick="insert(value)">
+    </br>
+    <input type="submit" value="1" onclick="insert(value)">
+    <input type="submit" value="2" onclick="insert(value)">
+    <input type="submit" value="3" onclick="insert(value)">
+    <input type="submit" value="*" onclick="insert(value)">
+    </br>
+    <input type="submit" value="0" onclick="insert(value)">
+    <input type="submit" value="." onclick="insert(value)">
+    <input class="equals" type="submit" value="=" onclick="calc()">
+    
+    </br>
+   
+   
+   
+    <script src="script.js"></script>
+  </body>
+</html>

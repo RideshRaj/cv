@@ -1,0 +1,45 @@
+body {
+  background-image: linear-gradient(to right, #de7119, white, #32ff6a );
+  font-family: 'Comfortaa', cursive;
+}
+
+* {
+  text-align: center;
+ 
+}
+
+.textField {
+   width: 235px;
+   border-radius: 20px;
+   border: 1px solid grey;
+   background-color: white;
+   color: #204051;
+}
+input {
+  height: 50px;
+  width: 50px;
+  margin: 3px;
+  font-size: larger;
+  border: 1px solid grey;
+  border-radius: 5px;
+  outline: none;
+  background-color: #204051;
+  color: white;
+}
+
+input:hover {
+  background-color: #116979;
+}
+
+.textField:hover {
+  background-color: #fff;
+}
+
+.equals {
+  width: 110px;
+}
+
+h1 {
+  font-size: 4.5rem;
+  color: #204051;
+}
